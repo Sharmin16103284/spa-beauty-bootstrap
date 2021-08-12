@@ -1,0 +1,196 @@
+/* fonts */
+/* poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* rufina */
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-image: url(images/leaf.png);
+    background-repeat: no-repeat;
+    background-size: 180px 350px;
+    background-position: 0 50%;
+}
+
+.bannerText{
+    padding: 0 5% 0 17%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    font-size: 12px;
+}
+
+.title{
+    font-family: 'Rufina', serif;
+    font-size: 50px;
+    margin: 5% 0;
+}
+
+.bannerbtn{
+    background-color: #ff817e;
+}
+
+.bannerbtn i{
+    padding-left: 10px;
+}
+
+
+.nextIcon i{
+    color: #ff817e;
+    font-size: 30px;
+    
+}
+
+
+/* aboutSection */
+.aboutSection{
+    padding: 0 15%;
+    font-size: 14px;
+    background-image: url(images/china-rose.png);
+    background-repeat: no-repeat;
+    background-position: 20% 0;
+}
+
+.aboutSection img{
+    margin-top: 8%;
+}
+
+.flower{
+    background-image: url(images/jasmine.png);
+    background-repeat: no-repeat;
+    background-position: 90% 85%;
+}
+
+.aboutButton{
+    background-color: #ff817e;
+    padding: 2% 5%;
+}
+
+.galleryItem{
+    margin-bottom: 10px;
+}
+
+.galleryText{
+    background-color: #ff817e;
+    top: 0;
+    height: 100%;
+    width: 94.5%;
+    opacity: .9;
+    display: none;
+}
+
+.galleryIcon{
+    display: block;
+    margin: 0 auto;
+    padding-top: 45%;
+    margin-bottom: 20px; 
+}
+
+.galleryItem:hover .galleryText{
+    display: block;
+    background-color: #ff817e;
+}
+
+.procedureText{
+    padding: 0 15%;
+}
+
+.cards{
+    padding: 0 8%;
+}
+
+.btnProcedures{
+    background-color: #333131;
+    margin: 20px;
+    padding: 2% 10%;
+    font-size: 12px;
+}
+
+.btnProcedures:hover{
+    background-color: #ff817e;
+}
+
+.sliders{
+    background-color: #fcf1f0;
+}
+
+.sliderItem{
+    padding: 5% 10%;
+}
+
+.clientName{
+    font-family: 'Rufina', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.clientName small{
+    font-family: 'Rufina', serif;
+    font-size: 14px;
+}
+
+.teamPhoto{
+    background-image: url(images/team3.jpg);
+    background-repeat: no-repeat;
+    background-size: 320px 380px;
+    height: 450px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.teamCard{
+    width: 92%;
+     margin: 0;
+     background-color: rgb(117, 5, 5);
+     z-index: 2;
+     position: relative;
+     top: 80%;
+     transition: top 1s ease;
+     /* box-shadow: 0 1px 10px .1px; */
+}
+
+.teamCard:hover{
+    top: 70%;
+}
+
+.bottom{
+    padding-bottom: 5%;
+    position: relative;
+    top: -10%;
+    z-index: 1;
+    
+}
+
+
+.btnIcon{
+    display: none;
+    transition: display 1s ease;
+}
+.teamCard:hover .btnIcon{
+    display: block;
+}
+
+
+/* teamsection */
+
+.teamsection{
+    padding: 0 8%;
+    position: absolute;
+}
+
+.upperPart{
+    position: relative;
+}
+
+.bottomPart{
+    position: relative;
+    top: 0px;
+    background-color: #ff817e;
+}
+
+
